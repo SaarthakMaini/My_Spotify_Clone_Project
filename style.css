@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* There is a ul in nav , we want to make it's display flex ie all items become horizontal*/
+nav ul{
+    display:flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    align-items:center;
+}
+.brand img{
+    width: 150px;
+    height: 69px;
+}
+.brand{
+    color:white;
+    padding:30px;
+}
+
+.container{
+    min-height:75vh;
+    background-color:black;
+    color:white;
+    margin:auto;
+    margin-top: 15px;
+    width:70%;
+    border-radius:12px;
+    background: url(Background.png)
+}
+
+#bottom{
+    align-items: center;
+    background-color:black;
+    height:150px;
+    bottom:0;
+    display:flex;
+    color:white;
+    flex-direction:column;
+    margin-top: 1%;
+}
+
+#myProgressBar{
+    width:80vw;
+    margin: 0 auto;
+}
+
+i{
+    padding:0 auto;
+    margin:30px;
+    cursor:pointer;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.songItem{
+    height:30px;
+    display:flex;
+    width:80%;
+    background-color:white;
+    /* color:black; */
+    float:left
+}
+
+#icon{
+    vertical-align: top;
+}
+
+/* .songItem img{
+     
+} */
