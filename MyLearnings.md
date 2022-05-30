@@ -1,4 +1,4 @@
-<ol><li>Installed the live server extension, to directly open the file in browser by just right clicking</li>
+<ol><li>Installed the live server extension, to directly open the file in browser by just right clicking.</li>
 <li>p:0,m:0 for padding and margin equal to zero </li>
 Can use google fonts website
 @import from google fonts
